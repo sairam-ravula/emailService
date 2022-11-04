@@ -16,24 +16,30 @@
 
 ### 1. create User
 /api/v1/users/add
+
 User is created by giving the below details : name, email, gender
 
 ### 2. update User
 /api/v1/users/update/:id
+
 User is updated by giving the below details : email and/or gender
 
 ### 3. delete User
 /api/v1/users/delete/:id
+
 User is deleted by giving the user id as request param.
 
 ### 4. get All Users
 /api/v1/users/all
+
 You can fetch all the users available
 
 ### 5. get User by Id
 /api/v1/users/:id
+
 You can fetch the user by giving the user id as request param.
 
 ### 6. get Notifications that are unsent
 /api/v1/notifications/unsent
+
 You can fetch all the notifications that are unsent.
