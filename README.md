@@ -12,7 +12,7 @@
 1. I used nodemailer to send the mails. (I have removed the mail id and password for security reasons)
 2. I used node-cron to schedule the notification service. I set it fot 1 minute. Node-cron checks for every one minute if there are any notifications that are unsent.
 
-##RestAPI Paths
+## RestAPI Paths
 
 ### 1. create User
 /api/v1/users/add
