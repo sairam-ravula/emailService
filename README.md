@@ -34,6 +34,6 @@ You can fetch all the users available
 /api/v1/users/:id
 You can fetch the user by giving the user id as request param.
 
-###6. get Notifications that are unsent
+### 6. get Notifications that are unsent
 /api/v1/notifications/unsent
 You can fetch all the notifications that are unsent.
