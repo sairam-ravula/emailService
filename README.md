@@ -19,15 +19,21 @@
 
 User is created by giving the below details : name, email, gender
 
+User will get a email notification once account is created
+
 ### 2. update User
 /api/v1/users/update/:id
 
 User is updated by giving the below details : email and/or gender
 
+User will get a email notification once account is updated
+
 ### 3. delete User
 /api/v1/users/delete/:id
 
 User is deleted by giving the user id as request param.
+
+User will get a email notification once account is deleted.
 
 ### 4. get All Users
 /api/v1/users/all
